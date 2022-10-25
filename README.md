@@ -1,3 +1,5 @@
+<img width="900" alt="Capture d’écran 2021-09-03 à 04 00 12" src="/public/assets/LOGO-BLOB-Agency.png">
+
 # This repo contains the website of BLOB Agency
 
 You can download it here:
