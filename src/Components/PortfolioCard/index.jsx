@@ -2,7 +2,6 @@ import React from "react";
 import './PortfolioCard.scss'
 
 const PortfolioCard = ({title, description, picture, link, position}) => {
-console.log(title);
     return(
         <article className={`box__portfolio ${position === "left" ? "box__portfolio-left" : "box__portfolio-right"}`}>
             <img src={`/assets/${picture}`} alt={title} />

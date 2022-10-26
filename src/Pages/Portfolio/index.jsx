@@ -10,9 +10,6 @@ const Portfolio = () => {
         fetch('/data/portfolio.json')
         .then((res) => res.json())
         .then((res) => setDatas(res));
-        if(datas){
-            console.log(datas);
-        }
         
     }, [])
 
