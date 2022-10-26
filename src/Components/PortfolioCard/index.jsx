@@ -8,7 +8,7 @@ const PortfolioCard = ({title, description, picture, link, position}) => {
             <div className="description">
                 <h3>{title}</h3>
                 <p>{description}</p>
-                <button className="btn"><a href={link}>Check it out!</a></button>
+                <button className="btn"><a href={link} target="_blank" rel="noopener noreferrer">Check it out!</a></button>
             </div>
         </article>
     )
