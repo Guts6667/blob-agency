@@ -1,0 +1,26 @@
+.box__portfolio {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  img {
+    width: 45%;
+  }
+  &-left {
+    flex-direction: row-reverse;
+
+    .description {
+      text-align: right;
+      width: 45%;
+    }
+  }
+  &-right {
+    flex-direction: row;
+    .description {
+      text-align: left;
+      width: 45%;
+    }
+  }
+  .btn {
+    margin-top: 30px;
+  }
+}

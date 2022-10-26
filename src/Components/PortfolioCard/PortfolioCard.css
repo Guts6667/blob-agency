@@ -1,0 +1,42 @@
+.box__portfolio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 30px;
+}
+
+.box__portfolio img {
+  width: 45%;
+}
+
+.box__portfolio-left {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.box__portfolio-left .description {
+  text-align: right;
+  width: 45%;
+}
+
+.box__portfolio-right {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.box__portfolio-right .description {
+  text-align: left;
+  width: 45%;
+}
+
+.box__portfolio .btn {
+  margin-top: 30px;
+}
+/*# sourceMappingURL=PortfolioCard.css.map */

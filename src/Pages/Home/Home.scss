@@ -1,0 +1,12 @@
+.container__home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  h1 {
+    margin-block-end: 20px;
+  }
+  button {
+    margin-top: 20px;
+  }
+}

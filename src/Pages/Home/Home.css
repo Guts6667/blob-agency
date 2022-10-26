@@ -1,0 +1,23 @@
+.container__home {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container__home h1 {
+  -webkit-margin-after: 20px;
+          margin-block-end: 20px;
+}
+
+.container__home button {
+  margin-top: 20px;
+}
+/*# sourceMappingURL=Home.css.map */

@@ -1,0 +1,9 @@
+.container__portfolio {
+  min-height: 100vh;
+  row-gap: 30px;
+}
+
+.container__portfolio h2 {
+  text-align: right;
+}
+/*# sourceMappingURL=Portfolio.css.map */
