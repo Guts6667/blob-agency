@@ -1,0 +1,18 @@
+.box-teamCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  text-align: center;
+  @media only screen and (min-width: 1024px) {
+    width: 35%;
+  }
+  img {
+    border-radius: 100%;
+    width: 100%;
+    filter: grayscale(100);
+    @media only screen and (min-width: 768px) {
+      width: 60%;
+    }
+  }
+}

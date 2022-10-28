@@ -1,0 +1,39 @@
+.container__about {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  h2 {
+    text-align: left;
+  }
+  .container__values {
+    display: flex;
+    flex-direction: column;
+    @media only screen and (min-width: 1024px) {
+      flex-direction: row;
+      justify-content: space-between;
+      h3 {
+        width: 30%;
+      }
+      p {
+        width: 70%;
+      }
+    }
+  }
+  .container__team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+    @media only screen and (min-width: 1024px) {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    h3 {
+      @media only screen and (min-width: 1024px) {
+        width: 30%;
+      }
+    }
+  }
+}
