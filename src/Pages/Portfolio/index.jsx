@@ -16,7 +16,7 @@ const Portfolio = () => {
     return(
         <section className="container container__portfolio">
             <h2>Our Favourite <strong>Projects</strong></h2>
-            <div>
+            <div className="container__portfolio-card">
                 {datas && (
                     datas.map((data) => {
                         return(

@@ -1,7 +1,12 @@
 .container__portfolio {
   min-height: 100vh;
-  row-gap: 30px;
   h2 {
     text-align: right;
+  }
+  &-card {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
   }
 }
