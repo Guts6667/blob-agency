@@ -14,7 +14,7 @@ fetch("/data/team.json")
 }, [])
 
     return(
-        <section className="container container__about">
+        <section className="container container__about" id="about">
             <h2>About <strong>BLOB</strong> Agency</h2>
             <div className="container__values">
                 <h3>BLOB's values</h3>

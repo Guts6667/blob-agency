@@ -14,7 +14,7 @@ const Portfolio = () => {
     }, [])
 
     return(
-        <section className="container container__portfolio">
+        <section className="container container__portfolio" id="portfolio">
             <h2>Our Favourite <strong>Projects</strong></h2>
             <div className="container__portfolio-card">
                 {datas && (

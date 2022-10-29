@@ -27,7 +27,7 @@ const Header = () => {
             <a href="#accueil">Home</a>
             <a href="#portfolio">Portfolio</a>
             <a href="#about">About</a>
-            <a href="#skills">Skills</a>
+            <a href="#expertise">Expertise</a>
             <a href="#contact">Contact</a>
         </nav>
         {isOpen && (
@@ -42,8 +42,8 @@ const Header = () => {
                     <a onClick={toggleBtn} href="#about" >
                         <span>About</span><img src="/assets/chevron-right-solid.svg" alt="Chevron right" />
                     </a>
-                    <a onClick={toggleBtn} href="#skills">
-                        <span>Skills</span><img src="/assets/chevron-right-solid.svg" alt="Chevron right" />
+                    <a onClick={toggleBtn} href="#expertise">
+                        <span>Expertise</span><img src="/assets/chevron-right-solid.svg" alt="Chevron right" />
                     </a>
                     <a onClick={toggleBtn} href="#contat">
                         <span>Contact</span><img src="/assets/chevron-right-solid.svg" alt="Chevron right" />

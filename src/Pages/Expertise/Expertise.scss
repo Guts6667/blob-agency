@@ -1,0 +1,24 @@
+.container__expertise {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 35px;
+
+  h2 {
+    text-align: end;
+  }
+  &-card {
+    display: flex;
+    overflow: scroll;
+    column-gap: 30px;
+    scroll-behavior: smooth;
+    .box-expertise {
+      background: rgba(251, 250, 246, 0.2);
+      box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+      border-radius: 15px;
+      min-width: 300px;
+      width: 70%;
+      padding: 20px;
+    }
+  }
+}
