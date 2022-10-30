@@ -9,9 +9,13 @@
   }
   &-card {
     display: flex;
+    justify-content: space-around;
     overflow: scroll;
     column-gap: 30px;
     scroll-behavior: smooth;
+    @media only screen and (min-width: 1024px) {
+      overflow: hidden;
+    }
     .box-expertise {
       background: rgba(251, 250, 246, 0.2);
       box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
@@ -19,6 +23,28 @@
       min-width: 300px;
       width: 70%;
       padding: 20px;
+      &:hover {
+        position: relative;
+        box-shadow: 0px 1px 9px 0px white;
+        animation: boxExpertiseHov 0.4s forwards ease-in;
+        @keyframes boxExpertiseHov {
+          from {
+            top: 0;
+            box-shadow: 0px 0px 5px 0px white;
+          }
+          to {
+            width: 30%;
+            top: 50px;
+            box-shadow: 0px 1px 9px 0px white;
+          }
+        }
+      }
+      @media only screen and (min-width: 1024px) {
+        width: 20%;
+      }
+      h3 {
+        font-size: 40px;
+      }
     }
   }
 }

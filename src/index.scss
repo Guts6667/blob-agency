@@ -10,11 +10,14 @@ body {
   src: url("./fonts/Poppins/Poppins-ExtraLight.ttf") format(("ttf"));
   src: url("./fonts/Poppins/Poppins-Thin.ttf") format(("ttf"));
 
-  background-image: url("../public/assets/BG-Home.svg");
+  background-image: url("../public/assets/Body-BG-Mobile.svg");
   background-color: #262d28;
-  // background-size: ;
-  // background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
+  @media only screen and (min-width: 768px) {
+    background-image: url("../public/assets/Body-BG.svg");
+    background-size: auto;
+  }
 }
 
 code {
