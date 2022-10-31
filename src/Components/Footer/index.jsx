@@ -8,13 +8,13 @@ const Footer = () => {
             <div className="infos-top">
             <span>Find us on: </span>
             <a href="https://www.linkedin.com/company/blob-agency/">
-                <img src="/assets/Linkedin-Icon.svg" alt="Icon Linkedin" />
+                <img src="/assets/Linkedin-Icon.png" alt="Icon Linkedin" />
             </a>
             <a href="#contact">
-                <img src="/assets/Instagram-Icon.svg" alt=" Icon Instagram" />
+                <img src="/assets/Instagram-Icon.png" alt=" Icon Instagram" />
             </a>
             <a href="https://github.com/Guts6667">
-                <img src="/assets/Github-Icon.svg" alt="Icon Github" />
+                <img src="/assets/Github-Icon.png" alt="Icon Github" />
             </a>
             </div>
             <span className="divider"></span>
