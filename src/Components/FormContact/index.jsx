@@ -24,10 +24,10 @@ const FormContact = () => {
         (displayForm && emailSent === false) ?(
                 <form ref={form} onSubmit={sendEmail}>
                     <div>
-                        <input type="text" name="user_name"  placeholder={'John Doe'}/>
+                        <input type="text" name="user_name"  placeholder={'John Doe'} required/>
                     </div>
                      <div>
-                        <input type="email" name="user_email" placeholder={'johndoe@gmail.com'} />
+                        <input type="email" name="user_email" placeholder={'johndoe@gmail.com'} required />
                     </div>
                     {/* <div>
                         <input type="text" name="user_subject" defaultValue={'Subject'} placeholder={"Let's have a meeting"}/>

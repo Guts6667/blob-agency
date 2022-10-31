@@ -6,7 +6,7 @@ const Expertise = () => {
 
     return(
 
-        <section className="container container__expertise">
+        <section className="container container__expertise" id="expertise">
             <h2>THE EXPERTISE OF <strong>BLOB</strong></h2>
             <div className="container__expertise-card">
                 <article className="box-expertise">

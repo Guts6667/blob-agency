@@ -5,7 +5,7 @@ import "./Contact.scss"
 const Contact = () => {
 
     return(
-        <section className="container container__contact">
+        <section className="container container__contact" id="contact">
             <div className="container__contact-form">
             <h2>Do you want to start a project?</h2>
             <p>Quam ob rem cave Catoni anteponas ne istum quidem ipsum, quem Apollo, ut ais, sapientissimum iudicavit, Quam ob rem cave Catoni anteponas ne istum quidem ipsum</p>

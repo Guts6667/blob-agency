@@ -42,6 +42,9 @@ header {
       margin-right: 5%;
       a {
         text-align: center;
+        &:hover {
+          animation: navBtn 0.25s forwards ease-in;
+        }
       }
     }
   }
@@ -138,5 +141,15 @@ header {
   }
   @media only screen and (min-width: 1024px) {
     display: none;
+  }
+}
+@keyframes navBtn {
+  from {
+    color: white;
+    border-bottom: 1px solid white;
+  }
+  to {
+    color: #829a87;
+    border-bottom: 1px solid #829a87;
   }
 }

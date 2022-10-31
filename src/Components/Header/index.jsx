@@ -24,7 +24,7 @@ const Header = () => {
     </div>
         <img src="/assets/LOGO-BLOB-Agency.png" alt="Logo BLOB Agency" />
         <nav className="nav-desktop">
-            <a href="#accueil">Home</a>
+            <a href="#home">Home</a>
             <a href="#portfolio">Portfolio</a>
             <a href="#about">About</a>
             <a href="#expertise">Expertise</a>
