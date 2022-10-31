@@ -45,7 +45,7 @@ const Header = () => {
                     <a onClick={toggleBtn} href="#expertise">
                         <span>Expertise</span><img src="/assets/chevron-right-solid.svg" alt="Chevron right" />
                     </a>
-                    <a onClick={toggleBtn} href="#contat">
+                    <a onClick={toggleBtn} href="#contact">
                         <span>Contact</span><img src="/assets/chevron-right-solid.svg" alt="Chevron right" />
                     </a>
                 </nav>
