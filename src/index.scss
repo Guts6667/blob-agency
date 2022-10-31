@@ -71,6 +71,7 @@ strong {
   border-radius: 100px;
   border: none;
   width: fit-content;
+  cursor: pointer;
   &:hover {
     animation: animBtnHover 0.25s forwards ease-in;
   }

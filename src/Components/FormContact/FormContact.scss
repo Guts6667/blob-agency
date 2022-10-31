@@ -1,0 +1,47 @@
+form {
+  color: white;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  row-gap: 10px;
+
+  input,
+  textarea {
+    width: 100%;
+    border: none;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    padding-left: 25px;
+    &:focus-visible {
+      background: #262d28;
+      outline: none;
+    }
+    &:focus {
+      outline: rgba(255, 255, 255, 0.15) 2px solid;
+    }
+    &::placeholder {
+      color: rgba(255, 255, 255, 0.8);
+    }
+  }
+  input {
+    border-radius: 100px;
+  }
+  textarea {
+    border-radius: 25px;
+    height: 150px;
+  }
+  .btn {
+    align-self: flex-end;
+    margin-right: 0;
+  }
+}
+
+.form-thanks {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  width: fit-content;
+  border-radius: 25px;
+}
