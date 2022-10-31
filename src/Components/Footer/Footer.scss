@@ -1,0 +1,35 @@
+footer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  img {
+    width: 35px;
+  }
+  @media only screen and (min-width: 768px) {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .infos {
+    &-top {
+      display: flex;
+      align-items: center;
+      column-gap: 10px;
+    }
+    &-bottom {
+      margin-top: 10px;
+      text-decoration: underline;
+    }
+  }
+  .divider {
+    background-color: white;
+    height: 1px;
+    width: 280px;
+    @media only screen and (min-width: 768px) {
+      display: none;
+    }
+  }
+}

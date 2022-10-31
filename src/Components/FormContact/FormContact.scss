@@ -14,15 +14,15 @@ form {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding: 20px;
     padding-left: 25px;
+    outline: none;
     &:focus-visible {
       background: #262d28;
-      outline: none;
     }
     &:focus {
-      outline: rgba(255, 255, 255, 0.15) 2px solid;
+      border: rgba(255, 255, 255, 0.15) 2px solid;
     }
     &::placeholder {
-      color: rgba(255, 255, 255, 0.8);
+      border: rgba(255, 255, 255, 0.8);
     }
   }
   input {

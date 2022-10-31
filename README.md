@@ -13,6 +13,10 @@ Run `yarn install` or `npm install` in the root directory
 
 Run `yarn add sass --dev` or `npm install --dev sass`
 
+## Install Emailjs
+
+Run `yarn add @emailjs/browser --save` or `npm install @emailjs/browser --save`
+
 ## Start the project
 
 In **src** run `yarn start` or `npm run start`
