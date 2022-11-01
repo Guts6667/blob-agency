@@ -25,23 +25,6 @@
       min-width: 300px;
       width: 70%;
       padding: 20px;
-
-      //   &:hover {
-      //     position: relative;
-      //     box-shadow: 0px 1px 9px 0px white;
-      //     animation: boxExpertiseHov 0.4s forwards ease-in;
-      //     @keyframes boxExpertiseHov {
-      //       from {
-      //         top: 0;
-      //         box-shadow: 0px 0px 5px 0px white;
-      //       }
-      //       to {
-      //         width: 30%;
-      //         top: 50px;
-      //         box-shadow: 0px 1px 9px 0px white;
-      //       }
-      //     }
-      //   }
       @media only screen and (min-width: 1024px) {
         width: 20%;
         &:nth-child(2) {
@@ -51,6 +34,11 @@
       }
       h3 {
         font-size: 40px;
+      }
+      p {
+        overflow: scroll;
+        max-height: 280px;
+        -webkit-mask: linear-gradient(180deg, #000 95%, transparent);
       }
     }
   }
