@@ -14,5 +14,13 @@
         "description": "SaudiExcellenceCo's website is the proof that quality can be reached even with a short deadline. They came with a challenge: 10 days to create a unique website to showcase at the AI Summit in Dubaï. It took 8 days from the design to the creation and release.",
         "link": "https://www.saudiexcellenceco.com/",
         "picture": "saudiexcellenceco.png"
+    },
+    {
+        "id": "2",
+        "position" : "right",
+        "title" : "A.C. Ventures",
+        "description" : "Their goal was to have a simple yet elegant identity that showcases their portfolio without overshadowing their business. For them, we designed a logo, a mockup and created a website that displays the values of their company and their stories. Here, the robustness of A.C. Ventures is represented by a thick and modern font with no frills.",
+        "link" : "",
+        "picture" : "ac-ventures.png"
     }
 ]
