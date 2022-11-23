@@ -42,6 +42,7 @@ header {
       margin-right: 5%;
       a {
         text-align: center;
+        min-width: 100px;
         &:hover {
           animation: navBtn 0.25s forwards ease-in;
         }
@@ -123,8 +124,7 @@ header {
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
-      font-weight: 500;
-      font-size: 18px;
+
       &:hover {
         background: -webkit-linear-gradient(
           90.13deg,
@@ -151,5 +151,6 @@ header {
   to {
     color: #829a87;
     border-bottom: 1px solid #829a87;
+    font-weight: 400;
   }
 }

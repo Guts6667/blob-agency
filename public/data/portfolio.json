@@ -22,5 +22,13 @@
         "description" : "Their goal was to have a simple yet elegant identity that showcases their portfolio without overshadowing their business. For them, we designed a logo, a mockup and created a website that displays the values of their company and their stories. Here, the robustness of A.C. Ventures is represented by a thick and modern font with no frills.",
         "link" : "",
         "picture" : "ac-ventures.png"
+    },
+    {
+        "id": "3",
+        "position" : "left",
+        "title" : "ag-designs",
+        "description" : "ag-designs is Alexiane Grieu's website, UI/UX Designer at BLOB-Agency. This design is the reflection of her style, minimalistic, original and as usual with a touch of cream.",
+        "link" : "https://agdesigns.art",
+        "picture" : "ag-designs.png"
     }
 ]

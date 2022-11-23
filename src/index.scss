@@ -1,15 +1,36 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("../public/fonts/Poppins/Poppins-Regular.ttf") format(("truetype"));
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../public/fonts/Poppins/Poppins-Bold.ttf") format(("truetype"));
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../public/fonts/Poppins/Poppins-Light.ttf") format(("truetype"));
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../public/fonts/Poppins/Poppins-ExtraLight.ttf")
+    format(("truetype"));
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../public/fonts/Poppins/Poppins-Thin.ttf") format(("truetype"));
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Coolvetica";
+  src: url("../public/fonts/coolvetica/coolvetica\ rg.otf") format(("opentype"));
+  font-weight: 400;
+}
+
 body {
   margin: 0;
-  font-family: "Coolvetica";
-  src: url("./fonts/coolvetica/coolvetica\ rg.otf") format("otf");
-
-  font-family: "Poppins";
-  src: url("./fonts/Poppins/Poppins-Regular.ttf") format(("ttf"));
-  src: url("./fonts/Poppins/Poppins-Bold.ttf") format(("ttf"));
-  src: url("./fonts/Poppins/Poppins-Light.ttf") format(("ttf"));
-  src: url("./fonts/Poppins/Poppins-ExtraLight.ttf") format(("ttf"));
-  src: url("./fonts/Poppins/Poppins-Thin.ttf") format(("ttf"));
-
   background-image: url("../public/assets/Body-BG-Mobile.svg");
   background-color: #262d28;
   background-size: cover;
@@ -29,7 +50,7 @@ code {
   font-family: "Poppins", "Coolvetica", Arial, Helvetica, sans-serif;
   color: white;
   letter-spacing: 2px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 30px;
 }
 a {
@@ -44,8 +65,15 @@ h3 {
 h1 {
   font-size: 36px;
   font-weight: bold;
+  strong {
+    font-size: 36px;
+    font-weight: bold;
+  }
   @media only screen and (min-width: 1024px) {
     font-size: 48px;
+    strong {
+      font-size: 48px;
+    }
   }
 }
 h2 {
@@ -73,6 +101,7 @@ strong {
   border-radius: 100px;
   border: none;
   width: fit-content;
+  font-weight: 400;
   cursor: pointer;
   &:hover {
     animation: animBtnHover 0.25s forwards ease-in;
@@ -83,6 +112,7 @@ strong {
   a {
     padding: 15px 30px;
     display: block;
+    font-weight: 400;
   }
 }
 @keyframes animBtnHover {
