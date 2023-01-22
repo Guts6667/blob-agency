@@ -1,9 +1,12 @@
 import React from "react";
 import "./Expertise.scss"
 
+/**
+ * Section Expertise
+ * @returns {JSX} React Component
+ */
 const Expertise = () => {
     
-
     return(
 
         <section className="container container__expertise" id="expertise">

@@ -1,7 +1,7 @@
 import './Home.css';
 /**
- * 
- * @returns {JSX} Page HOME
+ * Page HOME
+ * @returns {JSX} React Component
  */
 function Home() {
   return (

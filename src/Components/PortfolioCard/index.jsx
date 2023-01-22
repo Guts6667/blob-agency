@@ -1,6 +1,11 @@
 import React from "react";
 import './PortfolioCard.scss'
 
+/**
+ * 
+ * @param {String}
+ * @returns {JSX} React Component
+ */
 const PortfolioCard = ({title, description, picture, link, position}) => {
     return(
         <article className={`box__portfolio ${position === "left" ? "box__portfolio-left" : "box__portfolio-right"}`}>

@@ -3,7 +3,10 @@ import { useState } from "react";
 import { useEffect } from "react";
 import PortfolioCard from "../../Components/PortfolioCard";
 import "./Portfolio.scss"
-
+/**
+ * Section Portfolio
+ * @returns {JSX} React Component
+ */
 const Portfolio = () => {
     const [datas, setDatas] = useState([])
     useEffect(() => {

@@ -4,6 +4,10 @@ import { useEffect } from "react";
 import TeamCard from "../../Components/TeamCard";
 import "./About.scss"
 
+/**
+ * About Section
+ * @returns {JSX} React Component
+ */
 const About = () => {
     const [teamDatas, setTeamDatas] = useState([])
 useEffect(() => {
